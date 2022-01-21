@@ -1,0 +1,33 @@
+/* section */
+.section {
+    font-weight: 500;
+}
+
+.section-title {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #2c2e31;
+    text-transform: uppercase;
+}
+
+.section-fields {
+    margin-top: 8px;
+    display: flex;
+}
+
+.section-fields__title {
+    width: 50%;
+    font-size: 16px;
+    font-weight: 700;
+    color: #666;
+    text-transform: capitalize;
+}
+
+.section-fields__value {
+    width: 50%;
+    word-wrap: break-word;
+    font-size: 16px;
+    font-weight: 500;
+    color: #666;
+}

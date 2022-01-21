@@ -1,0 +1,24 @@
+.user-profile__container {
+    position: relative;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.user-profile {
+    z-index: 1;
+    position: relative;
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.user-details {
+    padding: 20px clamp(30px, 5vw, 60px) 50px;
+}
+
+.hr {
+    height: 2px;
+    margin: 25px 0;
+    background-color: #eee;
+    border: none;
+}

@@ -1,0 +1,37 @@
+.user-profile-intro__img-container {
+    --prec: 65%;
+    background: linear-gradient(#eee var(--prec), #fff var(--prec));
+    height: 200px;
+}
+
+.user-profile-intro__img {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 60%;
+    width: 120px;
+    height: 120px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 5px white, 0 0 0 7px #eee;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.user-profile-intro__details {
+    text-align: center;
+}
+
+.user-profile-intro__title {
+    margin-top: 16px;
+    font-size: clamp(16px, 3vw, 18px);
+    color: #999;
+}
+
+.user-profile-intro__name {
+    margin-top: 5px;
+    color: #2c2e31;
+    font-size: clamp(22px, 3vw, 38px);
+    font-weight: 500;
+    text-transform: capitalize;
+}
